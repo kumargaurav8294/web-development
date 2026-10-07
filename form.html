@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Visible content goes here -->
+    
+        <form>
+            <h3>Student Registration Form</h3>
+            <p>Please fill in the details below.</p>
+            <fieldset>
+         <legend>Personal information</legend>
+         <label for="Name">Full Name:</label>
+         <input type="text" id="Name"> <br><br>
+         <label for="Mob.No">Mobile Number:</label>
+         <input type="text" id="Mob.No"><br><br>
+         <label for="Email">Email:</label>
+         <input type="text" id="Email"><br><br>
+         <label for="password">Password:</label>
+         <input type="text" id="password"><br><br>
+         <label for="age">Age:</label>
+         <input type="number" id="password"><br><br>
+         <label for="Gender">Gender:</label>
+        
+        <input type="radio" id="Male" name="Gender" vlue="male">
+        <label for="Male">Male</label>
+         
+        <input type="radio" id="Female" name="Gender" vlue="Female">
+        <label for="Female">Female</label>
+        <br>
+               </fieldset> <br>
+               <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+         <fieldset>
+         <legend>Additional information</legend>
+         <label for="Interest">Interest:</label>
+         <input type="checkbox" id="interest" name="interest" vlue="coding">
+        <label for="interest">Coding</label>
+         
+        <input type="checkbox" id="interest" name="interest" vlue="Sports">
+        <label for="interest">Sports</label>
+         <input type="checkbox" id="interest" name="interest" vlue="Music">
+        <label for="interest">Music</label>
+         
+        <br>
+        <label for="course">Select a Course</label>
+        <select name="course" Id="course">
+         <option value="CSE">BCA</option>
+         </select>
+         </fieldset> <br>
+         <lable for="file">Upload Resume</lable>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <p>Why do you want to join this course</p>
+         <textarea cols="25" rows="3"> </textarea> <br>
+         <input type="submit" value="Register">
+       <input type="reset" value="Reset">
+        </form>
+   
+</body>
+</html>
