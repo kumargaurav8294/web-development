@@ -1,0 +1,16 @@
+h1{
+    background-color: aquamarine;
+    text-decoration: underline;
+    text-align:center;
+    vertical-align:top;
+    text-transform: lowercase;
+    
+}
+h2{
+     background-color:azure;
+    text-decoration: overline;
+}
+p{
+    background-color:bisque;
+    text-decoration: overline;
+}
