@@ -15,8 +15,10 @@
 } */
  .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: DodgerBlue;
+  flex-wrap:wrap;
+  
 }
 
 .container div {
