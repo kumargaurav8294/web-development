@@ -1,7 +1,21 @@
 /*style.Css*/
-.container {
+/* .container {
   display: flex;
   flex-direction: row;
+  background-color: DodgerBlue;
+}
+
+.container div {
+  background-color: yellow;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+} */
+ .container {
+  display: flex;
+  flex-direction: column;
   background-color: DodgerBlue;
 }
 
