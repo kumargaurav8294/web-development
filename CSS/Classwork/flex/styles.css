@@ -15,10 +15,11 @@
 } */
  .container {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   background-color: DodgerBlue;
-  flex-wrap:wrap;
-  
+  flex-wrap: wrap;
+ height:770px;
+ width: 300px;
 }
 
 .container div {
@@ -28,4 +29,5 @@
   padding: 10px;
   text-align: center;  
   font-size: 30px;
+  
 }
